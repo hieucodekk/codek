@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="product-form">
+        <input type="hidden" id="product-id">
+        <div>
+            <label for="">name</label>
+            <input type="text" id="product-name">
+            <p id="error-name" style="color: red;"></p>
+        </div>
+        <div>
+            <label for="">price</label>
+            <input type="text" id="product-price">
+            <p id="error-price" style="color: red;"></p>
+        </div>
+        <button type="submit" id="sunmit-btn"> save </button>
+    </form>
+    <table id="product-list" border="1px">
+        <!-- <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <button class="delete" type="submit" data-id="">xoa</button> -->
+    </table>
+</body>
+<script src="app.js"></script>
+</html>
